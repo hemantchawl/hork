@@ -2,10 +2,9 @@
 
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
-import { COOKIE, currentUser, isAdmin } from "@/lib/session";
+import { currentUser, endSession, handleLoginAllowed, isAdmin, startSession } from "@/lib/session";
 import { DATA_DIR, newId, readAll, update } from "@/lib/store";
 import type { MenuItem, Verdict } from "@/lib/types";
 
@@ -25,6 +24,7 @@ async function requireUser(next: string) {
 }
 
 export async function signIn(formData: FormData) {
+  if (!handleLoginAllowed()) throw new Error("Handle sign-in is turned off; use Google");
   const handle = String(formData.get("handle") ?? "").trim().toLowerCase().replace(/^@/, "");
   const displayName = String(formData.get("display_name") ?? "").trim();
   const next = safePath(String(formData.get("next") ?? "/"));
@@ -37,13 +37,28 @@ export async function signIn(formData: FormData) {
     users.push(u);
     return u;
   });
-  (await cookies()).set(COOKIE, user.id, { httpOnly: true, sameSite: "lax", maxAge: 60 * 60 * 24 * 180, path: "/" });
+  await startSession(user.id);
   redirect(next);
 }
 
 export async function signOut() {
-  (await cookies()).delete(COOKIE);
+  await endSession();
   redirect("/");
+}
+
+export async function updateProfile(formData: FormData) {
+  const user = await requireUser("/me");
+  const handle = String(formData.get("handle") ?? "").trim().toLowerCase().replace(/^@/, "");
+  const displayName = String(formData.get("display_name") ?? "").trim().slice(0, 40);
+  if (!/^[a-z0-9_]{2,24}$/.test(handle)) redirect("/me?error=handle");
+  const ok = await update("users", (users) => {
+    if (users.some((u) => u.handle === handle && u.id !== user.id)) return false;
+    const me = users.find((u) => u.id === user.id)!;
+    me.handle = handle;
+    if (displayName) me.display_name = displayName;
+    return true;
+  });
+  redirect(ok ? "/me" : "/me?error=taken");
 }
 
 export async function logDish(formData: FormData) {

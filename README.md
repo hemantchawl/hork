@@ -19,7 +19,26 @@ real ratings from testers, and JSON files instead of a database.
 | Me / profiles | `/me`, `/u/[handle]`, `/people` | Your dish history; "eat like Beth"; follow people |
 | Admin | `/admin` | Restaurants missing menus; paste a menu by hand |
 
-Sign-in is just a handle in a cookie (no passwords) — fine for an invite-only test, not for anything public.
+Sign-in is **Sign in with Google**. For local development and automated tests there's also a handle-only
+sign-in (no password), which is on only when Google isn't configured or `HORK_ALLOW_HANDLE_LOGIN=1`.
+Sessions are a signed, HTTP-only cookie (`lib/session.ts`).
+
+### Set up Google sign-in
+
+1. In [Google Cloud Console](https://console.cloud.google.com/apis/credentials) → **Create credentials →
+   OAuth client ID → Web application**. (First time: configure the OAuth consent screen as *External*, add the
+   `openid`, `email` and `profile` scopes, and add your testers as test users while the app is in *Testing*.)
+2. Under **Authorized redirect URIs** add `<your app URL>/api/auth/google/callback`, e.g.
+   `http://localhost:3000/api/auth/google/callback` for local dev and `https://<your domain>/api/auth/google/callback`
+   for the deployed app.
+3. Put the client ID and secret in `.env` (see `.env.example`) with `APP_URL` and a `SESSION_SECRET`:
+   ```bash
+   node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
+   ```
+4. Restart the app; **Me** now shows *Sign in with Google*. New users get a handle from their email, which they
+   can change on **Me**.
+
+In production (`npm start`) cookies are `Secure`, so serve the app over HTTPS.
 
 **Ranking v0:** `score = (loves + 0.5 × fines + 1) / (ratings + 2)`. *Top pick* needs 3+ ratings and a score of 0.7;
 *Skip it* needs 3+ ratings with most of them Skip. Only each person's latest verdict on a dish counts. See `lib/score.ts`.
@@ -98,10 +117,11 @@ from those restaurants' websites in October 2026. There are no seeded ratings �
 ## Deploying
 
 JSON files need a persistent disk, so use a host with a volume (Fly.io, Render, Railway, or a small VM) and set
-`HORK_DATA_DIR` to the mounted volume. Serverless hosts such as Vercel won't keep writes. Set `HORK_ADMINS`
-(comma-separated handles) to limit `/admin`; if unset, any signed-in tester is an admin.
+`HORK_DATA_DIR` to the mounted volume. Serverless hosts such as Vercel won't keep writes. Set the Google and
+`SESSION_SECRET` variables from `.env.example`, and `HORK_ADMINS` (comma-separated handles or emails) to limit
+`/admin`; if unset, any signed-in tester is an admin.
 
 ## Testing the full loop
 
-`tests/e2e.mjs` signs in three testers, logs dishes, follows, and checks the menu badges, stream, profile,
+`tests/e2e.mjs` (run the server with `HORK_ALLOW_HANDLE_LOGIN=1`) signs in three testers, logs dishes, follows, and checks the menu badges, stream, profile,
 "Best near me" and off-menu dishes against a running server on a copy of the data (instructions at the top of the file).

@@ -1,5 +1,5 @@
 // End-to-end check of the core loop against a running server.
-//   cp -r data /tmp/hork-test && HORK_DATA_DIR=/tmp/hork-test PORT=3100 npm start
+//   cp -r data /tmp/hork-test && HORK_DATA_DIR=/tmp/hork-test HORK_ALLOW_HANDLE_LOGIN=1 PORT=3100 npm start
 //   HORK_DATA_DIR=/tmp/hork-test node tests/e2e.mjs      (needs `npm i -D playwright` + a Chromium;
 //   set CHROME_PATH to use an already-installed Chrome/Chromium)
 // Never point it at the real data/ folder: it creates users and logs.

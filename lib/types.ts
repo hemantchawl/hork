@@ -40,6 +40,9 @@ export interface User {
   handle: string;
   display_name: string;
   created_at: string;
+  google_sub?: string; // Google account id, when signed in with Google
+  email?: string;
+  avatar_url?: string;
 }
 
 export interface Follow {
