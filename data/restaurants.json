@@ -1821,8 +1821,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.order.store/store/honey-hi/hDwLoD3bQ7K5a9j0UnyJJg",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -1888,7 +1888,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -2052,8 +2052,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.lacolombe.com/pages/cafes",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2151,8 +2151,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://lowboybar.com/fooddrinkmenu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2316,8 +2316,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://menandbeasts.com/dinner-menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2448,8 +2448,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://muddypawla.square.site/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2580,8 +2580,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.picniccoffee.la/s/splash",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2910,8 +2910,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.eatstickyrice.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2943,8 +2943,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.starbucks.com/discover/featured-menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2976,8 +2976,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.starbucks.com/discover/featured-menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3010,7 +3010,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -3043,7 +3043,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -3405,8 +3405,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://thesemitropic.com/los-angeles-echo-park-the-semi-tropic-drink-menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3438,8 +3438,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://static1.squarespace.com/static/5aba836475f9ee693166b860/t/6a763b67cf83647cfee38c1f/1786133351053/TCR+Spring+Menu+08.04.26+.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3471,8 +3471,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://tierramiacoffee.square.site/?location=11ec39136be7f24ea346ac1f6bbbd01e#KJ4VQ2RSSLV3XCQYD7MEY23R",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3571,7 +3571,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -3867,8 +3867,8 @@
     "confidence": 0.982,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.4100bar.com/cocktail-menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3999,8 +3999,8 @@
     "confidence": 0.98,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.barflores.com/drink-menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4032,8 +4032,8 @@
     "confidence": 0.98,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.cafestella.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4330,7 +4330,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -4528,7 +4528,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -4623,7 +4623,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -4784,7 +4784,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -4883,7 +4883,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -4982,7 +4982,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -5011,7 +5011,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -5237,8 +5237,8 @@
     "confidence": 0.961,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://order.spoton.com/so-black-cherry-cafe-23146/los-angeles-ca/67e448fcbf2e7589d6c6c7d1/dinein?tableId",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -5403,7 +5403,7 @@
     "fsq_place_id": "4a05f809f964a520a5721fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -5534,8 +5534,8 @@
     "confidence": 0.951,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://static1.squarespace.com/static/5b0355a25cfd793caedfee61/t/6a160630bc8ffc72b3e8bac9/1779828272126/LB-2601-Lunch-Brunch-Menu-051826.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -5601,7 +5601,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5696,7 +5696,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5992,8 +5992,8 @@
     "confidence": 0.947,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.dadaechopark.com/contact/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -6055,7 +6055,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -6154,7 +6154,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -6187,7 +6187,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -6319,7 +6319,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -6385,7 +6385,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -6649,7 +6649,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -6880,7 +6880,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -7143,8 +7143,8 @@
     "confidence": 0.92,
     "fsq_place_id": "4eb188091081ba283624651e",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://gingergrass.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7375,7 +7375,7 @@
     "fsq_place_id": "4a35cdfbf964a520659d1fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7408,7 +7408,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -7441,7 +7441,7 @@
     "fsq_place_id": "578aa121498ee6c1971f9519",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8530,7 +8530,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -8728,7 +8728,7 @@
     "fsq_place_id": "5896592a0b565650436c6c0c",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9322,7 +9322,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -9421,7 +9421,7 @@
     "fsq_place_id": "577f02d5498e62a6211e16ef",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9487,7 +9487,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -9586,7 +9586,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -9751,7 +9751,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -9883,7 +9883,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -9974,7 +9974,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -10007,7 +10007,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -10317,7 +10317,7 @@
     "fsq_place_id": "688d313fbfffa54f8bb1d2c3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10346,7 +10346,7 @@
     "fsq_place_id": "59a5d90cfc9e943b5b10feee",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10490,8 +10490,8 @@
     "confidence": 0.77,
     "fsq_place_id": "5d8cfdc3da62b70008da6b41",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.juicecrafters.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10610,8 +10610,8 @@
     "confidence": 0.77,
     "fsq_place_id": "5259b09a498e332351c44572",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://muddypawla.square.site/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10639,8 +10639,8 @@
     "confidence": 0.77,
     "fsq_place_id": "69ac8578ded5c07aea5d28ea",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.oliveandjamescafe.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10727,7 +10727,7 @@
     "fsq_place_id": "5a2ac4dea3061904fd826da6",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10813,8 +10813,8 @@
     "confidence": 0.77,
     "fsq_place_id": "6302cd6bc45f38095eb0493b",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://solidcoffeeroasters.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10872,7 +10872,7 @@
     "fsq_place_id": "54d6f052498e653d2aec43d8",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -11025,7 +11025,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -11058,7 +11058,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -11091,7 +11091,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -11215,7 +11215,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -11248,7 +11248,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -11277,7 +11277,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
