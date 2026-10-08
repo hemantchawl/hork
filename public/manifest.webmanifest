@@ -1,0 +1,9 @@
+{
+  "name": "Hork",
+  "short_name": "Hork",
+  "description": "What to order, dish by dish.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf8f3",
+  "theme_color": "#c2410c"
+}

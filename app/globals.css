@@ -1,0 +1,63 @@
+:root {
+  --bg: #fbf8f3;
+  --card: #ffffff;
+  --ink: #1d1a16;
+  --muted: #6b645b;
+  --line: #e8e1d6;
+  --accent: #c2410c;
+  --love: #15803d;
+  --fine: #a16207;
+  --skip: #b91c1c;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15130f; --card: #1f1c17; --ink: #f3eee6; --muted: #a59d92; --line: #343028;
+    --accent: #fb923c; --love: #4ade80; --fine: #facc15; --skip: #f87171;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); }
+body { font: 16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; padding-bottom: 76px; }
+a { color: inherit; }
+main { max-width: 640px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 1.6rem; margin: 8px 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 1.05rem; margin: 24px 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.muted { color: var(--muted); }
+.small { font-size: 0.85rem; }
+.brand { font-weight: 800; letter-spacing: -0.02em; color: var(--accent); text-decoration: none; font-size: 1.25rem; }
+header.top { max-width: 640px; margin: 0 auto; padding: 14px 16px 0; display: flex; justify-content: space-between; align-items: baseline; }
+nav.tabs { position: fixed; bottom: 0; left: 0; right: 0; background: var(--card); border-top: 1px solid var(--line); display: flex; justify-content: space-around; padding: 8px 0 calc(8px + env(safe-area-inset-bottom)); z-index: 10; }
+nav.tabs a { text-decoration: none; font-size: 0.85rem; font-weight: 600; padding: 6px 12px; color: var(--muted); }
+nav.tabs a:hover { color: var(--ink); }
+.list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
+a.card { display: block; text-decoration: none; }
+.row { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.dish-name { font-weight: 650; }
+.badge { display: inline-block; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; margin-left: 6px; vertical-align: middle; }
+.badge.top { background: color-mix(in srgb, var(--love) 18%, transparent); color: var(--love); }
+.badge.skip { background: color-mix(in srgb, var(--skip) 18%, transparent); color: var(--skip); }
+.badge.status { background: var(--line); color: var(--muted); font-weight: 600; }
+.counts { font-size: 0.85rem; color: var(--muted); white-space: nowrap; }
+.counts .l { color: var(--love); } .counts .f { color: var(--fine); } .counts .s { color: var(--skip); }
+.btn { display: inline-block; border: 0; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 700; padding: 10px 16px; font-size: 0.95rem; text-decoration: none; cursor: pointer; }
+.btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+.btn.small { padding: 6px 12px; font-size: 0.85rem; }
+input, textarea, select { width: 100%; font: inherit; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+label { display: block; font-weight: 600; margin: 12px 0 6px; }
+.verdicts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 16px 0; }
+.verdicts input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.verdicts label { margin: 0; text-align: center; padding: 18px 0; border-radius: var(--radius); border: 2px solid var(--line); background: var(--card); font-size: 1.05rem; cursor: pointer; }
+.verdicts input:checked + label.love { border-color: var(--love); color: var(--love); }
+.verdicts input:checked + label.fine { border-color: var(--fine); color: var(--fine); }
+.verdicts input:checked + label.skip { border-color: var(--skip); color: var(--skip); }
+.verdicts input:focus-visible + label { outline: 2px solid var(--accent); outline-offset: 2px; }
+.friends { font-size: 0.85rem; margin-top: 4px; }
+.v-love { color: var(--love); } .v-fine { color: var(--fine); } .v-skip { color: var(--skip); }
+.notice { background: color-mix(in srgb, var(--love) 14%, transparent); border-radius: var(--radius); padding: 10px 14px; margin: 12px 0; }
+.photo { width: 100%; border-radius: 10px; margin-top: 8px; max-height: 320px; object-fit: cover; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; text-decoration: none; font-size: 0.85rem; background: var(--card); }
+.chip.on { border-color: var(--accent); color: var(--accent); font-weight: 700; }
+details summary { cursor: pointer; color: var(--accent); font-weight: 600; }

@@ -1,0 +1,99 @@
+# Hork
+
+**It's not about where to eat. It's about what to eat.**
+A scrappy prototype of a dish-first food app: open it at a restaurant, see what your friends loved and what to skip,
+log what you ate in ten seconds.
+
+This is the 4-week prototype from the *Hork — Scrappy Prototype Design* doc: real restaurants, real menus,
+real ratings from testers, and JSON files instead of a database.
+
+## What's in it
+
+| Screen | Path | What it does |
+| --- | --- | --- |
+| Here | `/` | Uses your location to list the nearest restaurants; search by name |
+| Menu | `/r/[id]` | The real menu by section, with love / fine / skip counts, friends' verdicts, *Top pick* and *Skip it* badges, and a "What's good here" summary |
+| Log | `/log/[itemId]` | Love / Fine / Skip, optional photo and note |
+| Best near me | `/best` | Pick a dish type (burger, pasta, taco…) and get every version nearby, ranked |
+| Stream | `/stream` | What friends (or everyone) are eating |
+| Me / profiles | `/me`, `/u/[handle]`, `/people` | Your dish history; "eat like Beth"; follow people |
+| Admin | `/admin` | Restaurants missing menus; paste a menu by hand |
+
+Sign-in is just a handle in a cookie (no passwords) — fine for an invite-only test, not for anything public.
+
+**Ranking v0:** `score = (loves + 0.5 × fines + 1) / (ratings + 2)`. *Top pick* needs 3+ ratings and a score of 0.7;
+*Skip it* needs 3+ ratings with most of them Skip. Only each person's latest verdict on a dish counts. See `lib/score.ts`.
+
+## Run it
+
+```bash
+npm install
+npm run dev            # http://localhost:3000
+npm test               # unit tests (scoring)
+npm run typecheck
+```
+
+On a phone on the same Wi-Fi, open `http://<your-laptop-ip>:3000`. Browsers only share location over HTTPS or
+localhost, so for real phone testing deploy it (below) or use a tunnel such as `cloudflared tunnel --url http://localhost:3000`.
+
+## Data
+
+Everything lives in `data/` as JSON:
+
+| File | Contents |
+| --- | --- |
+| `areas.json` | Launch neighborhoods (bounding boxes). Currently Silver Lake, LA |
+| `restaurants.json` | 348 real food places from Overture Maps (includes Foursquare Open Source Places) |
+| `menu_items.json` | Structured menus; every item keeps its `source_url` |
+| `dish_types.json` | The fixed list used for "Best ___ near me" |
+| `users.json`, `logs.json`, `follows.json` | Created by testers |
+| `uploads/` | Dish photos (git-ignored) |
+
+Writes go through `lib/store.ts`: one lock per file, write to a temp file, then rename. Good for one server
+process and a few dozen testers; move to Postgres (see the MVP technical design) before going further.
+Set `HORK_DATA_DIR` to point the app at a different data folder.
+
+### Load restaurants (real, free)
+
+```bash
+pip install pyarrow
+npm run load:places -- --area silver-lake
+```
+
+Reads only the Overture Parquet row groups that overlap the area's bounding box (a few MB, not the 11 GB release).
+Add a neighborhood by adding a bounding box to `data/areas.json`. Re-running keeps menu work already done.
+
+### Load menus
+
+```bash
+cp .env.example .env     # add ANTHROPIC_API_KEY
+npm run load:menus -- --limit 10          # next 10 restaurants without a menu
+npm run load:menus -- --id <restaurant id>
+npm run load:menus -- --dry-run --limit 20   # find + fetch menu pages only, no Claude calls
+```
+
+For each restaurant the script finds the menu page from its website (menu links, PDFs), fetches it (cached in
+`data/cache/`), and asks Claude (`claude-opus-5-5`, structured outputs) for sections, dishes, prices and a
+`dish_type`. Re-running a restaurant keeps dish ids that are still on the menu, so existing ratings stay attached.
+Restaurants with fewer than 3 dishes found are marked `needs_photo`; menus built in JavaScript may need a
+headless browser (not wired up yet) or a photo.
+
+Other ways in:
+- `npx tsx scripts/import-menu.ts <restaurant id> <menu.json> <source url> [web|pdf|photo]` — import a menu JSON
+  in the same shape the loader uses.
+- `/admin` → *Add menu* — paste `Section | Dish | Price | dish_type | Description` lines.
+- `npx tsx scripts/menu-text.ts <url>` — print the cleaned text the loader would send to Claude.
+
+The six menus in the repo today (Barbrix, Donna's, Botanica, Bowery Bungalow, 33 Taps, Wong's Wok) were taken
+from those restaurants' websites in October 2026. There are no seeded ratings — every rating comes from a tester.
+
+## Deploying
+
+JSON files need a persistent disk, so use a host with a volume (Fly.io, Render, Railway, or a small VM) and set
+`HORK_DATA_DIR` to the mounted volume. Serverless hosts such as Vercel won't keep writes. Set `HORK_ADMINS`
+(comma-separated handles) to limit `/admin`; if unset, any signed-in tester is an admin.
+
+## Testing the full loop
+
+`tests/e2e.mjs` signs in three testers, logs dishes, follows, and checks the menu badges, stream, profile,
+"Best near me" and off-menu dishes against a running server on a copy of the data (instructions at the top of the file).

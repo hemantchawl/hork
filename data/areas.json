@@ -1,0 +1,7 @@
+{
+  "silver-lake": {
+    "name": "Silver Lake, Los Angeles",
+    "center": { "lat": 34.0869, "lng": -118.2702 },
+    "bbox": { "west": -118.2850, "south": 34.0750, "east": -118.2550, "north": 34.1050 }
+  }
+}
