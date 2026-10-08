@@ -4,7 +4,8 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
-import { currentUser, endSession, handleLoginAllowed, isAdmin, startSession } from "@/lib/session";
+import { signIn as authSignIn, signOut as authSignOut } from "@/lib/auth";
+import { currentUser, handleLoginAllowed, isAdmin } from "@/lib/session";
 import { DATA_DIR, newId, readAll, update } from "@/lib/store";
 import type { MenuItem, Verdict } from "@/lib/types";
 
@@ -23,27 +24,21 @@ async function requireUser(next: string) {
   return user;
 }
 
+export async function signInWithGoogle(redirectTo: string = "/") {
+  await authSignIn("google", { redirectTo: safePath(redirectTo) });
+}
+
 export async function signIn(formData: FormData) {
   if (!handleLoginAllowed()) throw new Error("Handle sign-in is turned off; use Google");
   const handle = String(formData.get("handle") ?? "").trim().toLowerCase().replace(/^@/, "");
   const displayName = String(formData.get("display_name") ?? "").trim();
   const next = safePath(String(formData.get("next") ?? "/"));
   if (!/^[a-z0-9_]{2,24}$/.test(handle)) redirect(`/me?error=handle&next=${encodeURIComponent(next)}`);
-
-  const user = await update("users", (users) => {
-    const existing = users.find((u) => u.handle === handle);
-    if (existing) return existing;
-    const u = { id: newId("u"), handle, display_name: displayName || handle, created_at: new Date().toISOString() };
-    users.push(u);
-    return u;
-  });
-  await startSession(user.id);
-  redirect(next);
+  await authSignIn("credentials", { handle, display_name: displayName, redirectTo: next });
 }
 
 export async function signOut() {
-  await endSession();
-  redirect("/");
+  await authSignOut({ redirectTo: "/" });
 }
 
 export async function updateProfile(formData: FormData) {

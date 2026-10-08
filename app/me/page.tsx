@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { signIn, signOut, updateProfile } from "@/app/actions";
+import { signIn, signInWithGoogle, signOut, updateProfile } from "@/app/actions";
 import FeedList from "@/components/FeedList";
 import { feed } from "@/lib/queries";
 import { currentUser, googleEnabled, handleLoginAllowed } from "@/lib/session";
@@ -9,29 +9,36 @@ export const dynamic = "force-dynamic";
 const ERRORS: Record<string, string> = {
   handle: "Handles are 2–24 letters, numbers or underscores.",
   taken: "That handle is taken.",
-  google_cancelled: "Google sign-in was cancelled.",
-  google_expired: "Sign-in took too long. Please try again.",
-  google_state: "Sign-in couldn't be verified. Please try again.",
-  google_failed: "Google sign-in failed. Please try again.",
+  OAuthAccountNotLinked: "This email is already on an account. Sign in with Google again to link it.",
+  OAuthSignin: "Google sign-in failed to start. Try again.",
+  OAuthCallback: "Google sign-in was interrupted. Try again.",
+  AccessDenied: "Access was denied. Try a different Google account.",
+  Configuration: "Sign-in is not configured. Check Google OAuth environment variables.",
+  CredentialsSignin: "Handle sign-in failed. Please try again.",
+  Default: "Sign-in failed. Please try again.",
 };
 
-export default async function Me({ searchParams }: { searchParams: Promise<{ next?: string; error?: string }> }) {
-  const { next, error } = await searchParams;
+export default async function Me({ searchParams }: { searchParams: Promise<{ next?: string; callbackUrl?: string; error?: string }> }) {
+  const { next, callbackUrl, error } = await searchParams;
+  const redirectTo = next ?? callbackUrl ?? "/";
   const user = await currentUser();
   if (!user) {
     const google = googleEnabled();
+    const googleAction = signInWithGoogle.bind(null, redirectTo);
     return (
       <main>
         <h1>Join the test</h1>
-        {error && ERRORS[error] && <p className="v-skip">{ERRORS[error]}</p>}
+        {error && <p className="v-skip">{ERRORS[error] ?? ERRORS.Default}</p>}
         {google && (
-          <p><a className="btn" href={`/api/auth/google?next=${encodeURIComponent(next ?? "/")}`}>Sign in with Google</a></p>
+          <form action={googleAction}>
+            <p><button className="btn" type="submit">Sign in with Google</button></p>
+          </form>
         )}
         {handleLoginAllowed() && (
           <>
             <p className="muted">{google ? "Or, for testing, pick a handle:" : "Pick a handle. No password — this is an invite-only prototype."}</p>
             <form action={signIn} className="card">
-              <input type="hidden" name="next" value={next ?? "/"} />
+              <input type="hidden" name="next" value={redirectTo} />
               <label htmlFor="handle">Handle</label>
               <input id="handle" name="handle" required placeholder="beth" autoCapitalize="none" />
               <label htmlFor="display_name">Name</label>

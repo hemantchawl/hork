@@ -19,19 +19,20 @@ real ratings from testers, and JSON files instead of a database.
 | Me / profiles | `/me`, `/u/[handle]`, `/people` | Your dish history; "eat like Beth"; follow people |
 | Admin | `/admin` | Restaurants missing menus; paste a menu by hand |
 
-Sign-in is **Sign in with Google**. For local development and automated tests there's also a handle-only
-sign-in (no password), which is on only when Google isn't configured or `HORK_ALLOW_HANDLE_LOGIN=1`.
-Sessions are a signed, HTTP-only cookie (`lib/session.ts`).
+Sign-in is **Sign in with Google** via Auth.js (same Google OAuth setup as pioneer-luxury). For local
+development and automated tests there's also a handle-only sign-in (no password), which is on only when
+Google isn't configured or `HORK_ALLOW_HANDLE_LOGIN=1`. Sessions are Auth.js JWTs (`lib/auth.ts`).
 
 ### Set up Google sign-in
 
 1. In [Google Cloud Console](https://console.cloud.google.com/apis/credentials) → **Create credentials →
    OAuth client ID → Web application**. (First time: configure the OAuth consent screen as *External*, add the
    `openid`, `email` and `profile` scopes, and add your testers as test users while the app is in *Testing*.)
-2. Under **Authorized redirect URIs** add `<your app URL>/api/auth/google/callback`, e.g.
-   `http://localhost:3000/api/auth/google/callback` for local dev and `https://<your domain>/api/auth/google/callback`
-   for the deployed app.
-3. Put the client ID and secret in `.env` (see `.env.example`) with `APP_URL` and a `SESSION_SECRET`:
+2. Under **Authorized redirect URIs** add `<your app URL>/api/auth/callback/google`, e.g.
+   `http://localhost:3001/api/auth/callback/google` for local dev (use the port Next actually prints) and
+   `https://<your domain>/api/auth/callback/google` for the deployed app.
+3. Put the client ID and secret in `.env` as `AUTH_GOOGLE_ID` / `AUTH_GOOGLE_SECRET` (or `GOOGLE_CLIENT_ID` /
+   `GOOGLE_CLIENT_SECRET`) with `APP_URL` and an `AUTH_SECRET` (or `SESSION_SECRET`):
    ```bash
    node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
    ```
@@ -118,7 +119,7 @@ from those restaurants' websites in October 2026. There are no seeded ratings �
 
 JSON files need a persistent disk, so use a host with a volume (Fly.io, Render, Railway, or a small VM) and set
 `HORK_DATA_DIR` to the mounted volume. Serverless hosts such as Vercel won't keep writes. Set the Google and
-`SESSION_SECRET` variables from `.env.example`, and `HORK_ADMINS` (comma-separated handles or emails) to limit
+`AUTH_SECRET` (or `SESSION_SECRET`) variables from `.env.example`, and `HORK_ADMINS` (comma-separated handles or emails) to limit
 `/admin`; if unset, any signed-in tester is an admin.
 
 ## Testing the full loop

@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "l_98dbd892244f4cc4",
+    "user_id": "u_4049bd0f598c4b00",
+    "menu_item_id": "m_86f52dc5c5c44f00",
+    "restaurant_id": "749aee8c-b3ed-4d03-bb74-e1d8c4a310df",
+    "verdict": "love",
+    "note": null,
+    "photo": null,
+    "created_at": "2026-10-08T22:11:14.931Z"
+  }
+]
