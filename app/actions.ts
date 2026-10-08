@@ -1,12 +1,10 @@
 "use server";
 
-import { promises as fs } from "node:fs";
-import path from "node:path";
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { signIn as authSignIn, signOut as authSignOut } from "@/lib/auth";
 import { currentUser, handleLoginAllowed, isAdmin } from "@/lib/session";
-import { DATA_DIR, newId, readAll, update } from "@/lib/store";
+import { newId, readAll, savePhoto, update } from "@/lib/store";
 import type { MenuItem, Verdict } from "@/lib/types";
 
 const VERDICTS: Verdict[] = ["love", "fine", "skip"];
@@ -70,9 +68,7 @@ export async function logDish(formData: FormData) {
     const ext = PHOTO_TYPES[file.type];
     if (!ext || file.size > MAX_PHOTO_BYTES) throw new Error("Photo must be a JPEG, PNG, WebP or HEIC under 8 MB");
     photo = `${newId("p")}.${ext}`;
-    const dir = path.join(DATA_DIR, "uploads");
-    await fs.mkdir(dir, { recursive: true });
-    await fs.writeFile(path.join(dir, photo), Buffer.from(await file.arrayBuffer()));
+    await savePhoto(photo, Buffer.from(await file.arrayBuffer()), file.type);
   }
 
   const note = String(formData.get("note") ?? "").trim().slice(0, 500) || null;

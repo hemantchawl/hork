@@ -9,11 +9,13 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test lib/*.test.ts",
+    "test": "tsx --test --experimental-test-module-mocks lib/*.test.ts",
     "load:places": "python3 scripts/load_places.py",
-    "load:menus": "tsx scripts/load-menus.ts"
+    "load:menus": "tsx scripts/load-menus.ts",
+    "blob": "tsx scripts/blob-sync.ts"
   },
   "dependencies": {
+    "@vercel/blob": "^2.8.1",
     "next": "16.4.0",
     "next-auth": "^5.0.0-beta.32",
     "react": "19.3.0",

@@ -115,12 +115,33 @@ Other ways in:
 The six menus in the repo today (Barbrix, Donna's, Botanica, Bowery Bungalow, 33 Taps, Wong's Wok) were taken
 from those restaurants' websites in October 2026. There are no seeded ratings — every rating comes from a tester.
 
-## Deploying
+## Deploying to Vercel
 
-JSON files need a persistent disk, so use a host with a volume (Fly.io, Render, Railway, or a small VM) and set
-`HORK_DATA_DIR` to the mounted volume. Serverless hosts such as Vercel won't keep writes. Set the Google and
-`AUTH_SECRET` (or `SESSION_SECRET`) variables from `.env.example`, and `HORK_ADMINS` (comma-separated handles or emails) to limit
-`/admin`; if unset, any signed-in tester is an admin.
+The app runs on Vercel with its data in **Vercel Blob**:
+
+- `lib/store.ts` switches to Blob automatically when `BLOB_READ_WRITE_TOKEN` is set (or `HORK_STORAGE=blob`).
+  Each collection is a private blob at `hork/<name>.json`, created from the bundled `data/` copy the first time
+  it's read. Writes are ETag-conditional with retries, so simultaneous requests can't overwrite each other
+  (`lib/store-blob.test.ts`). Dish photos go to `hork/uploads/`.
+- Locally nothing changes: without the token, the app reads and writes `data/*.json`.
+
+Setup:
+
+1. Import the GitHub repo in Vercel (framework: Next.js).
+2. **Storage → Create → Blob**, connect it to the project. This adds `BLOB_READ_WRITE_TOKEN`.
+3. Environment variables: `AUTH_SECRET` (32+ random characters), `AUTH_GOOGLE_ID`, `AUTH_GOOGLE_SECRET`,
+   and optionally `HORK_ADMINS`.
+4. In Google Cloud, add `https://<your-vercel-domain>/api/auth/callback/google` as an authorized redirect URI.
+
+Moving data between your checkout and Blob (`BLOB_READ_WRITE_TOKEN` from the Blob store's `.env.local` tab):
+
+```bash
+npm run blob -- status                          # row counts in Blob vs data/
+npm run blob -- pull                            # back up Blob to data/backups/<time>/ (git-ignored)
+npm run blob -- push restaurants menu_items     # after re-running the loaders; keeps dishes testers added
+```
+
+Tester data (`users`, `logs`, `follows`) lives only in Blob once deployed; use `pull` for backups.
 
 ## Testing the full loop
 
