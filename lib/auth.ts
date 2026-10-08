@@ -12,12 +12,14 @@ function googleClient() {
   };
 }
 
+/**
+ * Read at request time, not at import: `next build` imports this module, and many hosts only provide
+ * secrets at runtime. In production with no secret, Auth.js itself refuses to sign anyone in (MissingSecret).
+ */
 function secret() {
   const s = process.env.AUTH_SECRET ?? process.env.SESSION_SECRET;
   if (s && s.length >= 32) return s;
-  if (process.env.NODE_ENV === "production" && process.env.HORK_INSECURE_DEV_SESSIONS !== "1") {
-    throw new Error("AUTH_SECRET or SESSION_SECRET must be set (32+ characters) in production");
-  }
+  if (process.env.NODE_ENV === "production" && process.env.HORK_INSECURE_DEV_SESSIONS !== "1") return undefined;
   return "hork-dev-only-secret-do-not-use-in-production";
 }
 
@@ -50,14 +52,15 @@ async function upsertGoogleUser(profile: { sub: string; email: string; name: str
 async function upsertHandleUser(handle: string, displayName: string) {
   return update("users", (users) => {
     const existing = users.find((u) => u.handle === handle);
-    if (existing) return existing;
+    // Handle sign-in has no password, so it may never open an account that signs in with Google.
+    if (existing) return existing.google_sub ? null : existing;
     const u: User = { id: newId("u"), handle, display_name: displayName || handle, created_at: new Date().toISOString() };
     users.push(u);
     return u;
   });
 }
 
-export const { handlers, auth, signIn, signOut } = NextAuth({
+export const { handlers, auth, signIn, signOut } = NextAuth(() => ({
   trustHost: true,
   secret: secret(),
   session: { strategy: "jwt", maxAge: 60 * 60 * 24 * 180 },
@@ -76,7 +79,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         if (!/^[a-z0-9_]{2,24}$/.test(handle)) return null;
         const displayName = String(credentials.display_name ?? "").trim();
         const user = await upsertHandleUser(handle, displayName);
-        return { id: user.id, name: user.display_name, email: user.email };
+        return user ? { id: user.id, name: user.display_name, email: user.email } : null;
       },
     }),
   ],
@@ -106,4 +109,4 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       return session;
     },
   },
-});
+}));

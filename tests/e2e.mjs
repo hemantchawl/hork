@@ -24,7 +24,7 @@ const first = await p.locator("a.card").first().innerText();
 check(first.includes("Barbrix"), `nearest restaurant is Barbrix (got: ${first.split("\n")[0]})`);
 await p.screenshot({ path: `${shots}/1-here.png`, fullPage: false });
 await p.goto(base + "/me");
-await p.fill("#handle", "beth"); await p.fill("#display_name", "Beth"); await p.click("button[type=submit]");
+await p.fill("#handle", "beth"); await p.fill("#display_name", "Beth"); await p.click("form:has(#handle) button[type=submit]");
 await p.waitForURL(base + "/");
 await p.locator("a.card", { hasText: "Barbrix" }).first().click();
 await p.waitForSelector("h1:has-text('Barbrix')");
@@ -43,7 +43,7 @@ for (const [dish, v] of [["Ricotta Gnocchi", "love"], ["Cioppino", "skip"]]) {
 // Lester and Sam also rate the burger so it earns a badge (3 ratings)
 for (const [h, v] of [["sam", "love"], ["lester", "love"]]) {
   const c = await mk(); const q = await c.newPage();
-  await q.goto(base + "/me"); await q.fill("#handle", h); await q.click("button[type=submit]"); await q.waitForURL(base + "/");
+  await q.goto(base + "/me"); await q.fill("#handle", h); await q.click("form:has(#handle) button[type=submit]"); await q.waitForURL(base + "/");
   await q.goto(`${base}/r/${r.id}`);
   await q.locator("li.card", { hasText: "THE Hamburger" }).getByText("I ate this").click();
   await q.waitForURL(/\/log\//);
