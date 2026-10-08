@@ -241,8 +241,8 @@
     "confidence": 0.995,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": "https://bulanthai.com/thai-kitchen-food-ingredients-you-may-not-have-thought-of/",
-    "menu_status": "needs_photo",
+    "menu_url": "http://www.bulanthaikitchen.com/menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -307,8 +307,8 @@
     "confidence": 0.995,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": "https://levantlosangeles.com/menus/",
-    "menu_status": "needs_photo",
+    "menu_url": "https://levantlosangeles.cloveronline.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -406,8 +406,8 @@
     "confidence": 0.994,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.naturewelljuice.com/_files/ugd/016339_b5b86ea159a94655a6c478a94a84b8e7.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -472,8 +472,8 @@
     "confidence": 0.992,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": "https://www.pazzogelato.net/",
-    "menu_status": "needs_photo",
+    "menu_url": "https://www.ubereats.com/store/pazzo-gelato/kXldZOc7RWOfmVPKxP-2wg",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -567,8 +567,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": "https://agracafeonline.com/",
-    "menu_status": "needs_photo",
+    "menu_url": "https://agracafeonline.com/menu.html",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -601,7 +601,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -633,8 +633,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.alimamasilverlake.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -667,7 +667,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -700,7 +700,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "failed",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -732,8 +732,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "failed",
+    "menu_url": "https://www.eatwithbacari.com/silverlake",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -766,7 +766,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -799,7 +799,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -897,8 +897,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "failed",
+    "menu_url": "https://www.burgersneversaydie.com/s/order#QPE67G3ZJ76MPIMKOHZSOPO3",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -931,7 +931,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "failed",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -963,8 +963,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://butterflypeacafe.squarespace.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -1063,7 +1063,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "failed",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1096,7 +1096,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "failed",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1128,8 +1128,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": "https://www.chipotle.com/order/create-account",
-    "menu_status": "needs_photo",
+    "menu_url": "https://www.chipotle.com/home",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -1194,8 +1194,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.constellationcoffeela.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -1261,7 +1261,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1294,7 +1294,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1360,7 +1360,7 @@
     "fsq_place_id": "680d7c65cf71452a23b6e24b",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "failed",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -1392,8 +1392,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://order.spoton.com/so-drugstore-cowboy-10332/los-angeles-ca/64c7f838d40f9c003d1dccd2",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -1426,7 +1426,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1492,7 +1492,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "failed",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1525,7 +1525,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1558,7 +1558,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1591,7 +1591,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "failed",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1689,8 +1689,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "failed",
+    "menu_url": "https://gingergrass.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -1723,7 +1723,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1756,7 +1756,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1854,8 +1854,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "failed",
+    "menu_url": "https://www.jackinthebox.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "DAC",
@@ -2019,8 +2019,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.kenbeysushi.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2118,8 +2118,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "failed",
+    "menu_url": "https://littlecaesars.com/en-us/store/9247/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2349,8 +2349,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.milliescafela.com/breakfastmenu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2383,7 +2383,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -2415,8 +2415,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://montysgoodburger.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2482,7 +2482,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -2515,7 +2515,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -2548,7 +2548,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -2613,8 +2613,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.pijjapalace.com/menus/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -2646,8 +2646,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.pitfirepizza.com/menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2679,8 +2679,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://order.spoton.com/so-pizza-buona-21578/los-angeles-ca/6734f68249b9cc7ff641829a",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2712,8 +2712,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://pizzana.com/pages/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2745,8 +2745,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://us.campero.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2779,7 +2779,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -2811,8 +2811,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://saltandstraw.com/collections/monthly-menu-series",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2845,7 +2845,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -2877,8 +2877,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://restaurantspain.net/menu-list-2.html",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3075,8 +3075,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.eatstickyrice.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3108,8 +3108,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.tacolina.la/menus/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3142,7 +3142,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -3174,8 +3174,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.goldbelly.com/restaurants/tartine-bakery?utm_medium=website&utm_source=partner&utm_term=1590",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3208,7 +3208,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -3240,8 +3240,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.chocolatedispensary.com/pages/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3274,7 +3274,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -3307,7 +3307,7 @@
     "fsq_place_id": "66c17021ab146e09bf8243bf",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -3339,8 +3339,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.redliontavern.net/menus/full-menu?location=the-red-lion-tavern",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3373,7 +3373,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -3504,8 +3504,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.triplebeampizza.com/menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3538,7 +3538,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -3604,7 +3604,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -3636,8 +3636,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://order.mealkeyway.com/customer/release/index?mid=5263326758565a586d366d5237397858337851776c513d3d#/main",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3670,7 +3670,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -3703,7 +3703,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -3735,8 +3735,8 @@
     "confidence": 0.989,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.theblackcatla.com/menus/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -3769,7 +3769,7 @@
     "fsq_place_id": "49c59943f964a52012571fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -3802,7 +3802,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -3834,8 +3834,8 @@
     "confidence": 0.985,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.tomatopiepizzajoint.com/silver-lake-menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3900,8 +3900,8 @@
     "confidence": 0.982,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.thesilverlakehouse.com/lunchmenu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3933,8 +3933,8 @@
     "confidence": 0.981,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://elcondorla.com/docs/menus.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -3967,7 +3967,7 @@
     "fsq_place_id": "53a09dcd498e718f8a3e08bb",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -4066,7 +4066,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -4098,8 +4098,8 @@
     "confidence": 0.979,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.dominos.com/menu/build-your-own-domino",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4132,7 +4132,7 @@
     "fsq_place_id": "4daf929643a1e3d9e64a3e3b",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -4164,8 +4164,8 @@
     "confidence": 0.979,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.sweetgreen.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4197,8 +4197,8 @@
     "confidence": 0.978,
     "fsq_place_id": "4b63a928f964a520718a2ae3",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "http://www.foragela.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -4230,8 +4230,8 @@
     "confidence": 0.978,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.torajapanesekitchen.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4264,7 +4264,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -4296,8 +4296,8 @@
     "confidence": 0.977,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.mixt.com/menu/mixt/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -4363,7 +4363,7 @@
     "fsq_place_id": "4b157eb6f964a520afad23e3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -4395,8 +4395,8 @@
     "confidence": 0.976,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.order.store/store/hard-times-pizza-los-angeles/sGkjIiGQRhmR8S8DLM_sfQ",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4429,7 +4429,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -4461,8 +4461,8 @@
     "confidence": 0.975,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.jerseymikes.com/menu/catering",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4494,8 +4494,8 @@
     "confidence": 0.973,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://vanleeuwenicecream.com/scoop-shops/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4556,8 +4556,8 @@
     "confidence": 0.972,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.baskinrobbins.com/en",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4589,8 +4589,8 @@
     "confidence": 0.972,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://coldspringtavern.com/menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4656,7 +4656,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -4685,7 +4685,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -4718,7 +4718,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -4750,8 +4750,8 @@
     "confidence": 0.972,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.habitburger.com/menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -4817,7 +4817,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -4850,7 +4850,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -4916,7 +4916,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -4949,7 +4949,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5040,7 +5040,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -5073,7 +5073,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -5105,8 +5105,8 @@
     "confidence": 0.965,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.cinnaholic.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -5138,8 +5138,8 @@
     "confidence": 0.965,
     "fsq_place_id": "4afe18b1f964a520e22d22e3",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://tacosmexico.com/our-menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -5172,7 +5172,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5205,7 +5205,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -5271,7 +5271,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5304,7 +5304,7 @@
     "fsq_place_id": "4ba2cf51f964a520fc1a38e3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -5336,8 +5336,8 @@
     "confidence": 0.958,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.playitamariscos.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -5370,7 +5370,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -5435,8 +5435,8 @@
     "confidence": 0.955,
     "fsq_place_id": "4c29018297d00f473ac340ea",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "http://costaalegrerestaurant.mobile-webview1.com/print.php",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -5469,7 +5469,7 @@
     "fsq_place_id": "57471ee5498e6e67d9edd3a3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -5502,7 +5502,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5568,7 +5568,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5634,7 +5634,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5662,8 +5662,8 @@
     "confidence": 0.95,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://alldaybabyla.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5729,7 +5729,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5761,8 +5761,8 @@
     "confidence": 0.95,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.garagepizzala.com/order/silverlake",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5794,8 +5794,8 @@
     "confidence": 0.95,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://thesemitropic.com/los-angeles-echo-park-the-semi-tropic-food-menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5828,7 +5828,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5861,7 +5861,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5894,7 +5894,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5927,7 +5927,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -5960,7 +5960,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -6026,7 +6026,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -6087,8 +6087,8 @@
     "confidence": 0.943,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://locations.kfc.com/ca/los-angeles/1400-glendale-blvd",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -6120,8 +6120,8 @@
     "confidence": 0.943,
     "fsq_place_id": "5c4e7d11894eac002ce1e1f2",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.lapergoletta.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6220,7 +6220,7 @@
     "fsq_place_id": "6302e6224fa48d3ae4103710",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6253,7 +6253,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -6285,8 +6285,8 @@
     "confidence": 0.94,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.sweetfin.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -6352,7 +6352,7 @@
     "fsq_place_id": "43a0311ef964a5201f2c1fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6418,7 +6418,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -6450,8 +6450,8 @@
     "confidence": 0.936,
     "fsq_place_id": "5bae9bdafb8e59002c04a520",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://babybluesbbq.com/venice-venice-beach-baby-blues-bbq-food-menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6483,8 +6483,8 @@
     "confidence": 0.935,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://marielastaco.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -6516,8 +6516,8 @@
     "confidence": 0.934,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://shakeshack.com/#/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -6549,8 +6549,8 @@
     "confidence": 0.932,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.elfcafe.com/menu-1",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -6582,8 +6582,8 @@
     "confidence": 0.93,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://fromtherestaurant.com/crepeeffect-cafe/menu/1630-Sunset-Blvd/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -6616,7 +6616,7 @@
     "fsq_place_id": "9b76d68afe9f44709f391874",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6681,8 +6681,8 @@
     "confidence": 0.93,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://slasherechopark.square.site/?location=B7Y02KCXY8RNE#BJRRS5YRQWODK43WVQTFLNQX",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -6714,8 +6714,8 @@
     "confidence": 0.93,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "http://www.sunsetsushila.com/pdf/sunset-sushi-menu.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -6748,7 +6748,7 @@
     "fsq_place_id": "608df63524c0c773f6f1adc8",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6780,8 +6780,8 @@
     "confidence": 0.929,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.masaofechopark.com/menu.php",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -6813,8 +6813,8 @@
     "confidence": 0.924,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.restaurant-santo.com/menus",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -6847,7 +6847,7 @@
     "fsq_place_id": "42829c80f964a52026221fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6913,7 +6913,7 @@
     "fsq_place_id": "49c966bff964a5205f581fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6946,7 +6946,7 @@
     "fsq_place_id": "4e4e5aa3bd4101d0d7a85be5",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -6979,7 +6979,7 @@
     "fsq_place_id": "4f321a4d19836c91c7b61c0e",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7012,7 +7012,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -7045,7 +7045,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -7078,7 +7078,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -7111,7 +7111,7 @@
     "fsq_place_id": "4d645afdb470a143bb9c18fe",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7176,8 +7176,8 @@
     "confidence": 0.92,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.bodegapark.la/order-online",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -7210,7 +7210,7 @@
     "fsq_place_id": "4f41601ae4b0daed43cbcf1b",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7243,7 +7243,7 @@
     "fsq_place_id": "574dd15a498e5d4280aa4b97",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7276,7 +7276,7 @@
     "fsq_place_id": "41f43a80f964a520191f1fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7309,7 +7309,7 @@
     "fsq_place_id": "625b8175dab25c033c8ca246",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7342,7 +7342,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -7474,7 +7474,7 @@
     "fsq_place_id": "4b6694fdf964a520af242be3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7507,7 +7507,7 @@
     "fsq_place_id": "4a46c684f964a52074a91fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7540,7 +7540,7 @@
     "fsq_place_id": "4e8b87cc823129f4e09ced4f",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7573,7 +7573,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -7606,7 +7606,7 @@
     "fsq_place_id": "4a023c16f964a5203e711fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7639,7 +7639,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -7672,7 +7672,7 @@
     "fsq_place_id": "49e7a2f3f964a520f2641fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7705,7 +7705,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -7738,7 +7738,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -7770,8 +7770,8 @@
     "confidence": 0.92,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.eggtuck.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -7804,7 +7804,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -7837,7 +7837,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -7869,8 +7869,8 @@
     "confidence": 0.92,
     "fsq_place_id": "60cd49cb369db67aa4ebb90b",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://elrusola.weebly.com/menu.html",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7903,7 +7903,7 @@
     "fsq_place_id": "4a6e2b2cf964a5201fd41fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7936,7 +7936,7 @@
     "fsq_place_id": "4a0a51d3f964a52099741fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -7969,7 +7969,7 @@
     "fsq_place_id": "4cc34b0abde8f04dd54da44b",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8002,7 +8002,7 @@
     "fsq_place_id": "58685d8192ca4c7f6fdb12e1",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8035,7 +8035,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -8068,7 +8068,7 @@
     "fsq_place_id": "4a7f8dd4f964a52053f41fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8100,8 +8100,8 @@
     "confidence": 0.92,
     "fsq_place_id": "5dacdf192ab63a0007198c64",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.goldburgerla.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8134,7 +8134,7 @@
     "fsq_place_id": "4ab59399f964a520797520e3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8167,7 +8167,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -8200,7 +8200,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -8233,7 +8233,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -8266,7 +8266,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -8299,7 +8299,7 @@
     "fsq_place_id": "4f43d39919836ed00190d42a",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8332,7 +8332,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -8364,8 +8364,8 @@
     "confidence": 0.92,
     "fsq_place_id": "634fbbc706595025cb36973e",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.junkyarddogla.com/menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8397,8 +8397,8 @@
     "confidence": 0.92,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://kgbakery.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -8431,7 +8431,7 @@
     "fsq_place_id": "54fa4298498e8e4671fc4e6d",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8464,7 +8464,7 @@
     "fsq_place_id": "1115f67bace64bc2bb8dad0f",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8497,7 +8497,7 @@
     "fsq_place_id": "50e4ebe3e4b02660b97ae1e1",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8562,8 +8562,8 @@
     "confidence": 0.92,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.beyondmenu.com/31637/los-angeles/miyako-sushi-los-angeles-90026.aspx",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -8596,7 +8596,7 @@
     "fsq_place_id": "5b1c88a369e77b002e417bb5",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8629,7 +8629,7 @@
     "fsq_place_id": "3fd66200f964a520b5ee1ee3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8662,7 +8662,7 @@
     "fsq_place_id": "4ac17611f964a5203e9720e3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8695,7 +8695,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -8761,7 +8761,7 @@
     "fsq_place_id": "58d53ac1b38b326aadf27157",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8794,7 +8794,7 @@
     "fsq_place_id": "54710ab2498e14e5b769263c",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8827,7 +8827,7 @@
     "fsq_place_id": "58f6e32ea35dce4c76187fe4",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8860,7 +8860,7 @@
     "fsq_place_id": "4b4293faf964a520ebd625e3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8892,8 +8892,8 @@
     "confidence": 0.92,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.naughtypienature.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -8926,7 +8926,7 @@
     "fsq_place_id": "5da152f6a52bcf00077a1e8e",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8959,7 +8959,7 @@
     "fsq_place_id": "59ceb74e0c9f3133d397876d",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -8992,7 +8992,7 @@
     "fsq_place_id": "4c2bc3f657a9c9b6816ff667",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9024,8 +9024,8 @@
     "confidence": 0.92,
     "fsq_place_id": "54a7698a498e98a2023c0a00",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.ostrichfarmla.com/exploring-menu-highlights-at-ostrich-farm-a-culinary-delight-in-echo-park/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9058,7 +9058,7 @@
     "fsq_place_id": "4b0ca08df964a520584023e3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9090,8 +9090,8 @@
     "confidence": 0.92,
     "fsq_place_id": "4e27a0df62e17c3301967697",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.ubereats.com/store/pazzo-gelato/kXldZOc7RWOfmVPKxP-2wg",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9123,8 +9123,8 @@
     "confidence": 0.92,
     "fsq_place_id": "4bbce1a1f57ba5930b60adb9",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.pescadomojadoseafoodgrill.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9157,7 +9157,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -9190,7 +9190,7 @@
     "fsq_place_id": "4f0e6fbfe4b023b379df7004",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9223,7 +9223,7 @@
     "fsq_place_id": "f807b9a9da8743acd868b13b",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9255,8 +9255,8 @@
     "confidence": 0.92,
     "fsq_place_id": "5356f441498eb531f797bc01",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.samosahouse.com/_files/ugd/0fe1fd_ffad1b19b7eb4e02803a7d76a7a71635.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9289,7 +9289,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -9354,8 +9354,8 @@
     "confidence": 0.92,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.spoonandpork.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -9388,7 +9388,7 @@
     "fsq_place_id": "516ca92a498e19f9fa188ae4",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9454,7 +9454,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -9520,7 +9520,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -9553,7 +9553,7 @@
     "fsq_place_id": "49fde62af964a5203f6f1fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9619,7 +9619,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -9652,7 +9652,7 @@
     "fsq_place_id": "562fbfc2498ea21396a60c46",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9684,8 +9684,8 @@
     "confidence": 0.92,
     "fsq_place_id": "4a3ee955f964a5208da31fe3",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://twoboots.com/menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9718,7 +9718,7 @@
     "fsq_place_id": "4af8f22bf964a520a21022e3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9783,8 +9783,8 @@
     "confidence": 0.92,
     "fsq_place_id": "4ae5364ff964a52086a021e3",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://winchells.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9817,7 +9817,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -9849,8 +9849,8 @@
     "confidence": 0.92,
     "fsq_place_id": "4c19186595e895215efb56e7",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.xoiaeats.com/menu.html",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -9911,8 +9911,8 @@
     "confidence": 0.88,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.ohanasuperette.la/s/order#IL5D3ICATAC546AFKN7GXRZ6",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -9944,8 +9944,8 @@
     "confidence": 0.859,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://static1.squarespace.com/static/5f4819735efa942ff3a2c7a4/t/661440b1e3e1170627856c36/1712603316419/DBP+Menu+food.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -10040,7 +10040,7 @@
     "fsq_place_id": "5340c2b3498ec1404d665a4c",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10068,8 +10068,8 @@
     "confidence": 0.813,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.astrofamilyrestaurant.com/omelettes",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -10102,7 +10102,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -10134,8 +10134,8 @@
     "confidence": 0.775,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.samosahouse.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -10168,7 +10168,7 @@
     "fsq_place_id": "58b234adfef5fa77934033bc",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10197,7 +10197,7 @@
     "fsq_place_id": "61f21ee0a879a539922ee4b0",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10226,7 +10226,7 @@
     "fsq_place_id": "4cb8f5d6c7228cfaba9d0cce",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10255,7 +10255,7 @@
     "fsq_place_id": "4f3226ae19836c91c7bb2f83",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10288,7 +10288,7 @@
     "fsq_place_id": "5ca8d45c3d4791002cb09705",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10374,8 +10374,8 @@
     "confidence": 0.77,
     "fsq_place_id": "60d530bbcf5d8f41a83379df",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.greekmansla.com/_files/ugd/ac7225_f0f6f1bd6dd04827aa8548d575a0ef8c.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10404,7 +10404,7 @@
     "fsq_place_id": "59ea23c316fa042fe750cfe5",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10433,7 +10433,7 @@
     "fsq_place_id": "56e4b877498e85d4fb467d36",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10461,8 +10461,8 @@
     "confidence": 0.77,
     "fsq_place_id": "66aeab578b8e857d710bada4",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.indigocow.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10520,7 +10520,7 @@
     "fsq_place_id": "604d52767ddd3e7ea0053770",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10549,7 +10549,7 @@
     "fsq_place_id": "659af330d36dd125071f17ac",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10582,7 +10582,7 @@
     "fsq_place_id": "440751d0f964a5204c301fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10669,7 +10669,7 @@
     "fsq_place_id": "634652949af68b2d817fdde9",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10697,8 +10697,8 @@
     "confidence": 0.77,
     "fsq_place_id": "552036bd498e71559fa6e549",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.eatpurgatorypizza.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10756,7 +10756,7 @@
     "fsq_place_id": "49fd2293f964a5200f6f1fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10785,7 +10785,7 @@
     "fsq_place_id": "4bec35556295c9b6c5a08808",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10843,7 +10843,7 @@
     "fsq_place_id": "4a7ac2c3f964a52077e91fe3",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10901,7 +10901,7 @@
     "fsq_place_id": "6844e1c26b78d251b7e99203",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10929,8 +10929,8 @@
     "confidence": 0.77,
     "fsq_place_id": "4be479e4bcef2d7f119c02e5",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.wongswoksilverlake.com/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -10959,7 +10959,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -10992,7 +10992,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -11124,7 +11124,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -11153,7 +11153,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -11182,7 +11182,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -11306,7 +11306,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
