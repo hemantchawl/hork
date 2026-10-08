@@ -109,8 +109,8 @@
     "confidence": 0.998,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "failed",
+    "menu_url": "https://www.yakuzasushi.us/s/order?cs=true&cst=custom&item=28#Q7NLXYUIOEXWQE7D7AWANUFX",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -143,7 +143,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "failed",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1029,8 +1029,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": "https://www.casitadelcampo.net/menu/",
-    "menu_status": "needs_photo",
+    "menu_url": "https://images.getbento.com/accounts/374f6733107c1c4aa18799fec0ebdf09/media/rQUaC9gLRLO0OAwGyB68_Casita%20del%20Campo%20Main%20Menu%20(rev%204-24-26).pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
