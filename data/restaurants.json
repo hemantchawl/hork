@@ -373,8 +373,8 @@
     "confidence": 0.994,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://static1.squarespace.com/static/6303b4ef27736455120c7c01/t/69f27fadbb17cc7b89f037bb/1777500077587/MarcoPolo-Brunch_4.20.26.pdf",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -440,7 +440,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -472,8 +472,8 @@
     "confidence": 0.992,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.pazzogelato.net/",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -506,7 +506,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Microsoft",
@@ -534,8 +534,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.atilosangeles.com/menus/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -567,8 +567,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://agracafeonline.com/",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -700,7 +700,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -733,7 +733,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -898,7 +898,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -931,7 +931,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -997,7 +997,7 @@
     "fsq_place_id": "5c5efaed46e1b6002c717468",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -1029,8 +1029,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.casitadelcampo.net/menu/",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1063,7 +1063,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1096,7 +1096,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1128,8 +1128,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.chipotle.com/order/create-account",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1162,7 +1162,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1228,7 +1228,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -1360,7 +1360,7 @@
     "fsq_place_id": "680d7c65cf71452a23b6e24b",
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -1459,7 +1459,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1492,7 +1492,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1591,7 +1591,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1623,8 +1623,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://fluffymccloudsicecream.com/",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -1656,8 +1656,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.garagepizzala.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -1690,7 +1690,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1788,8 +1788,8 @@
     "confidence": 0.99,
     "fsq_place_id": "67e6137cc7888856a1254ddc",
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://heavyhanded.la/",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "Foursquare",
@@ -1855,7 +1855,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "DAC",
@@ -1920,8 +1920,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://jaysbarla.com/menu/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -1954,7 +1954,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -1986,8 +1986,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://kalaveras.com/silver-lake/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2085,8 +2085,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://larkcakeshop.com/pages/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2119,7 +2119,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -2184,8 +2184,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://mashtimalones.com/food-menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -2217,8 +2217,8 @@
     "confidence": 0.99,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.latimes.com/food/dailydish/la-fo-maurys-bagels-20190315-story.html",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -2251,7 +2251,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -2284,7 +2284,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
