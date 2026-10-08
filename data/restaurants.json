@@ -14,8 +14,8 @@
     "confidence": 1,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "http://www.andantecoffeeco.com/",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -47,8 +47,8 @@
     "confidence": 1,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.kreationjuice.com/pages/menu",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "meta",
@@ -110,7 +110,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -143,7 +143,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",
@@ -241,8 +241,8 @@
     "confidence": 0.995,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://bulanthai.com/thai-kitchen-food-ingredients-you-may-not-have-thought-of/",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -274,8 +274,8 @@
     "confidence": 0.995,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://www.lasorteds.com/",
+    "menu_status": "loaded",
     "sources": [
       {
         "dataset": "BrightQuery",
@@ -307,8 +307,8 @@
     "confidence": 0.995,
     "fsq_place_id": null,
     "google_place_id": null,
-    "menu_url": null,
-    "menu_status": "missing",
+    "menu_url": "https://levantlosangeles.com/menus/",
+    "menu_status": "needs_photo",
     "sources": [
       {
         "dataset": "meta",
@@ -341,7 +341,7 @@
     "fsq_place_id": null,
     "google_place_id": null,
     "menu_url": null,
-    "menu_status": "missing",
+    "menu_status": "failed",
     "sources": [
       {
         "dataset": "meta",

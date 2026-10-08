@@ -4,6 +4,7 @@
  *   npm run load:menus -- --limit 10            # next 10 restaurants without a menu
  *   npm run load:menus -- --id <overture id>    # one restaurant
  *   npm run load:menus -- --dry-run --limit 3   # find + fetch only, no Claude calls
+ *   npm run load:menus -- --category restaurant,casual_eatery --limit 40
  *
  * Needs ANTHROPIC_API_KEY (or an `ant auth login` profile) unless --dry-run.
  * Fetched pages are cached in data/cache/ so re-runs don't hit restaurant sites again.
@@ -28,6 +29,7 @@ const { values: args } = parseArgs({
     limit: { type: "string", default: "5" },
     id: { type: "string" },
     area: { type: "string" },
+    category: { type: "string" }, // comma-separated Overture categories, e.g. restaurant,casual_eatery
     "dry-run": { type: "boolean", default: false },
     retry: { type: "boolean", default: false }, // also retry restaurants marked failed
   },
@@ -135,7 +137,7 @@ async function extract(client: Anthropic, r: Restaurant, src: Source): Promise<M
 
   const res = await client.beta.messages.parse({
     model: MODEL,
-    max_tokens: 32000,
+    max_tokens: 16000,
     betas: ["server-side-fallback-2026-07-01"],
     fallbacks: "default",
     output_config: { effort: "low", format: betaZodOutputFormat(MenuSchema) },
@@ -152,9 +154,10 @@ async function extract(client: Anthropic, r: Restaurant, src: Source): Promise<M
 
 async function main() {
   const all = await readAll("restaurants");
+  const cats = args.category?.split(",").map((c) => c.trim()).filter(Boolean);
   const queue = all.filter((r) =>
     args.id ? r.id === args.id
-      : r.website && (!args.area || r.area === args.area) && (r.menu_status === "missing" || (args.retry && r.menu_status === "failed")),
+      : r.website && (!args.area || r.area === args.area) && (!cats || cats.includes(r.category ?? "")) && (r.menu_status === "missing" || (args.retry && r.menu_status === "failed")),
   ).slice(0, args.id ? 1 : Number(args.limit));
   if (!queue.length) return console.log("Nothing to do.");
 
