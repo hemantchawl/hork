@@ -8,14 +8,17 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
 };
 
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#c2410c" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#fd6c01" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
         <header className="top">
-          <Link href="/" className="brand">hork</Link>
+          <Link href="/" className="brand" aria-label="Hork home">
+            <img src="/logo.png" alt="" width={32} height={32} />
+            <span>Hork</span>
+          </Link>
           <span className="muted small">What&apos;s good?</span>
         </header>
         {children}
