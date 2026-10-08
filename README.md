@@ -72,11 +72,19 @@ npm run load:menus -- --id <restaurant id>
 npm run load:menus -- --dry-run --limit 20   # find + fetch menu pages only, no Claude calls
 ```
 
-For each restaurant the script finds the menu page from its website (menu links, PDFs), fetches it (cached in
-`data/cache/`), and asks Claude (`claude-opus-5-5`, structured outputs) for sections, dishes, prices and a
-`dish_type`. Re-running a restaurant keeps dish ids that are still on the menu, so existing ratings stay attached.
-Restaurants with fewer than 3 dishes found are marked `needs_photo`; menus built in JavaScript may need a
-headless browser (not wired up yet) or a photo.
+For each restaurant the script tries, in order, until Claude (`claude-opus-5-5`, structured outputs) returns
+3 or more dishes:
+
+1. menu pages and PDFs linked from the website, fetched as plain HTML;
+2. the same pages rendered in headless Chromium, for menus built with JavaScript (BentoBox, Square, Toast…);
+3. a menu URL found with Claude's web search, fetched and rendered the same way.
+
+Pages are cached in `data/cache/`. Re-running a restaurant keeps dish ids that are still on the menu, so existing
+ratings stay attached. Restaurants where nothing works are marked `needs_photo`. The run prints Claude usage and
+an estimated cost; `--max-cost 20` stops once that estimate passes $20.
+
+Rendering needs a Chromium: `npx playwright install chromium`, or set `CHROME_PATH` to an installed Chrome.
+Use `--no-render` or `--no-search` to skip those steps.
 
 Other ways in:
 - `npx tsx scripts/import-menu.ts <restaurant id> <menu.json> <source url> [web|pdf|photo]` — import a menu JSON
