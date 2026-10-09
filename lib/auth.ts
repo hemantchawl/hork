@@ -18,7 +18,7 @@ function googleClient() {
  */
 function secret() {
   const s = process.env.AUTH_SECRET ?? process.env.SESSION_SECRET;
-  if (s && s.length >= 32) return s;
+  if (s) return s;
   if (process.env.NODE_ENV === "production" && process.env.HORK_INSECURE_DEV_SESSIONS !== "1") return undefined;
   return "hork-dev-only-secret-do-not-use-in-production";
 }
